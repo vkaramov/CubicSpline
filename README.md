@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/CubicSpline.svg?style=flat)](http://cocoapods.org/pods/CubicSpline)
 [![Platform](https://img.shields.io/cocoapods/p/CubicSpline.svg?style=flat)](http://cocoapods.org/pods/CubicSpline)
 
+A simple [cubic spline](http://en.wikipedia.org/wiki/Cubic_spline) library written in Swift
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Xcode 9.2 or Xcode 9.3. Both Swift 3.x and 4.x are supported.
 
 ## Installation
 
@@ -19,10 +23,15 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CubicSpline'
 ```
+If you're not using CocoaPods, simply add the source files in the `CubicSpline` directory to your project. **There are no dependencies and it works on Mac and iOS.**
 
 ## Author
 
-vkaramov, vkaramov@waverleysoftware.com
+Viacheslav Karamov
+
+## Credits
+
+Based and relying on [SAMCubicSpline](https://github.com/soffes/SAMCubicSpline) by [Sam Soffes](http://soff.es). Example is based on [SwiftCubicSpline](https://github.com/gscalzo/SwiftCubicSpline) by [Giordano Scalzo](giordano.scalzo@gmail.com).
 
 ## License
 

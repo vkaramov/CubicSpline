@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2B6BE5942D435D7E5513999CD057B2 /* CubicSpline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2436E85239E86A0146A3852B02E41493 /* CubicSpline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27355C2B39C44C26697F6CC05871E855 /* CubicSpline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28410BCB26BE3EA24D111B47721096F0 /* CubicSpline-dummy.m */; };
+		6517E585C451DCBF4530ABA01ABEB096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E2B698266AFAF8117A9E116F3C05970 /* Pods-CubicSpline_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA43BC8F6EAC3573A2173662A0E9783 /* Pods-CubicSpline_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788549F0763FE7ACFA62CD16848335FF /* Pods-CubicSpline_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D23E086298BAE98BA57FCDA26D67B1DA /* Pods-CubicSpline_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90DF7CDD66F120C966E13A9D3E8BD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DC421360C3B6C1456030B00526FEADBB /* Pods-CubicSpline_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B64FDAA9FC4386020AFDFA90EEA8415 /* Pods-CubicSpline_Tests-dummy.m */; };
+		E66DDD0FAA9E6AED4596E14EDA96E37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E81499CF61513B0202634B4DD33DE288 /* Pods-CubicSpline_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB76361F6DE8D07727FA6D666A5851 /* Pods-CubicSpline_Example-dummy.m */; };
+		EF67331D206FDF8100F86C10 /* CubicSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67331C206FDF8100F86C10 /* CubicSpline.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A4A9CA42A89286F5DF4BE62A49BF4D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906AA21A671568B7B4346519655FA621;
+			remoteInfo = CubicSpline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0187391DCF47FC4B60AB5E5FCEE4A8EC /* Pods-CubicSpline_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubicSpline_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B4D2341D37EF46530C61D741FB1EDE4 /* Pods-CubicSpline_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubicSpline_Example-frameworks.sh"; sourceTree = "<group>"; };
+		22F3BEFF8B97284B199E31B81A9AFAFF /* Pods-CubicSpline_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubicSpline_Tests-resources.sh"; sourceTree = "<group>"; };
+		2436E85239E86A0146A3852B02E41493 /* CubicSpline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubicSpline-umbrella.h"; sourceTree = "<group>"; };
+		283927271BEDC08AFFD1B7FE50A8B484 /* Pods_CubicSpline_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubicSpline_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28410BCB26BE3EA24D111B47721096F0 /* CubicSpline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubicSpline-dummy.m"; sourceTree = "<group>"; };
+		2A9EE532207B0C18E76082717111E0EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F03ED021A6247D466DBE0DF9AA48DB2 /* Pods-CubicSpline_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubicSpline_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB3CFA158CBE1FC7B9BD09B5BB53F62 /* Pods-CubicSpline_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubicSpline_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51EF2268910066EA4F397016D2AF8759 /* CubicSpline.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CubicSpline.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		530EC6B3151E5CE47B1165A0057E08D3 /* CubicSpline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CubicSpline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C05EBF89B4F97152E64BF47F25C32D /* Pods-CubicSpline_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubicSpline_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58E5E1105C599BB09D5BE8A72F4A08E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5DBB76361F6DE8D07727FA6D666A5851 /* Pods-CubicSpline_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubicSpline_Example-dummy.m"; sourceTree = "<group>"; };
+		5EC6F4E74DC76856A944AFB7634AA0DA /* CubicSpline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubicSpline-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B64FDAA9FC4386020AFDFA90EEA8415 /* Pods-CubicSpline_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubicSpline_Tests-dummy.m"; sourceTree = "<group>"; };
+		712B5A1C361E418AF2A5AD97A8FE0F3A /* CubicSpline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubicSpline.modulemap; sourceTree = "<group>"; };
+		7D468A8F0CBA3349A6AFF249BD3A8C77 /* Pods-CubicSpline_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubicSpline_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		893901B1D6B80FBF942B91D00D32BC67 /* Pods-CubicSpline_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubicSpline_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A5BE8598CC080FF27C7666E00C03228 /* CubicSpline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubicSpline.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A329C211D93051D5C553ACD75A2B4B1 /* Pods-CubicSpline_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubicSpline_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A03B452576182370EF3488B7BD9A0DC3 /* Pods-CubicSpline_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubicSpline_Tests.modulemap"; sourceTree = "<group>"; };
+		B38DEF8B4CA02F936B831F70B4FEA066 /* Pods-CubicSpline_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubicSpline_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBA43BC8F6EAC3573A2173662A0E9783 /* Pods-CubicSpline_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubicSpline_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D01DC5D2CD13DCD91AE06EE2785A2250 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1AED30C7ACA843B69D43E2E77AFD378 /* Pods-CubicSpline_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubicSpline_Example.modulemap"; sourceTree = "<group>"; };
+		D23E086298BAE98BA57FCDA26D67B1DA /* Pods-CubicSpline_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubicSpline_Example-umbrella.h"; sourceTree = "<group>"; };
+		DFBCDF4C7B03EF2F193401C8B7E39E31 /* Pods_CubicSpline_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubicSpline_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA9DA9CED1D662B96929FA97C3F26C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF67331C206FDF8100F86C10 /* CubicSpline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CubicSpline.swift; path = CubicSpline/Classes/CubicSpline.swift; sourceTree = "<group>"; };
+		F01BB2D1D6BC947D4F0FF2732963D041 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FB025A034F6231E9518EAFF2F639EC6C /* Pods-CubicSpline_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubicSpline_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FE79D597E865AA584F7D43E140E89E7A /* Pods-CubicSpline_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubicSpline_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1F9B9A4330949EEE4454FFF62C309A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90DF7CDD66F120C966E13A9D3E8BD15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA3D286FC9E4D5C6AB0763B5A22EC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6517E585C451DCBF4530ABA01ABEB096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A2ECB950BE33E1BB958284670B2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66DDD0FAA9E6AED4596E14EDA96E37A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EB36C96800EFA462B0F728748B8FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530EC6B3151E5CE47B1165A0057E08D3 /* CubicSpline.framework */,
+				283927271BEDC08AFFD1B7FE50A8B484 /* Pods_CubicSpline_Example.framework */,
+				DFBCDF4C7B03EF2F193401C8B7E39E31 /* Pods_CubicSpline_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757345AE0CCE5901582DD5E3A5D2A10A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93F7FCF82195B4D05A9B0196D8E5E7CD /* CubicSpline */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				757345AE0CCE5901582DD5E3A5D2A10A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				06EB36C96800EFA462B0F728748B8FA7 /* Products */,
+				D5665CC6756AC0D84F1382798600E75E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93F7FCF82195B4D05A9B0196D8E5E7CD /* CubicSpline */ = {
+			isa = PBXGroup;
+			children = (
+				EF67331C206FDF8100F86C10 /* CubicSpline.swift */,
+				ECF902719515EE32D03A241C08297E38 /* Pod */,
+				DCCEA7AFED36A6F4E7B50671F42B593C /* Support Files */,
+			);
+			name = CubicSpline;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		961383EC1A22E22210785EDF0833F4DF /* Pods-CubicSpline_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D01DC5D2CD13DCD91AE06EE2785A2250 /* Info.plist */,
+				A03B452576182370EF3488B7BD9A0DC3 /* Pods-CubicSpline_Tests.modulemap */,
+				4BB3CFA158CBE1FC7B9BD09B5BB53F62 /* Pods-CubicSpline_Tests-acknowledgements.markdown */,
+				9A329C211D93051D5C553ACD75A2B4B1 /* Pods-CubicSpline_Tests-acknowledgements.plist */,
+				6B64FDAA9FC4386020AFDFA90EEA8415 /* Pods-CubicSpline_Tests-dummy.m */,
+				893901B1D6B80FBF942B91D00D32BC67 /* Pods-CubicSpline_Tests-frameworks.sh */,
+				22F3BEFF8B97284B199E31B81A9AFAFF /* Pods-CubicSpline_Tests-resources.sh */,
+				BBA43BC8F6EAC3573A2173662A0E9783 /* Pods-CubicSpline_Tests-umbrella.h */,
+				0187391DCF47FC4B60AB5E5FCEE4A8EC /* Pods-CubicSpline_Tests.debug.xcconfig */,
+				7D468A8F0CBA3349A6AFF249BD3A8C77 /* Pods-CubicSpline_Tests.release.xcconfig */,
+			);
+			name = "Pods-CubicSpline_Tests";
+			path = "Target Support Files/Pods-CubicSpline_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D08A4B65E9ED11F0787C9660C4ED3FD7 /* Pods-CubicSpline_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9DA9CED1D662B96929FA97C3F26C5 /* Info.plist */,
+				D1AED30C7ACA843B69D43E2E77AFD378 /* Pods-CubicSpline_Example.modulemap */,
+				55C05EBF89B4F97152E64BF47F25C32D /* Pods-CubicSpline_Example-acknowledgements.markdown */,
+				B38DEF8B4CA02F936B831F70B4FEA066 /* Pods-CubicSpline_Example-acknowledgements.plist */,
+				5DBB76361F6DE8D07727FA6D666A5851 /* Pods-CubicSpline_Example-dummy.m */,
+				0B4D2341D37EF46530C61D741FB1EDE4 /* Pods-CubicSpline_Example-frameworks.sh */,
+				FE79D597E865AA584F7D43E140E89E7A /* Pods-CubicSpline_Example-resources.sh */,
+				D23E086298BAE98BA57FCDA26D67B1DA /* Pods-CubicSpline_Example-umbrella.h */,
+				2F03ED021A6247D466DBE0DF9AA48DB2 /* Pods-CubicSpline_Example.debug.xcconfig */,
+				FB025A034F6231E9518EAFF2F639EC6C /* Pods-CubicSpline_Example.release.xcconfig */,
+			);
+			name = "Pods-CubicSpline_Example";
+			path = "Target Support Files/Pods-CubicSpline_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5665CC6756AC0D84F1382798600E75E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08A4B65E9ED11F0787C9660C4ED3FD7 /* Pods-CubicSpline_Example */,
+				961383EC1A22E22210785EDF0833F4DF /* Pods-CubicSpline_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCCEA7AFED36A6F4E7B50671F42B593C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				712B5A1C361E418AF2A5AD97A8FE0F3A /* CubicSpline.modulemap */,
+				8A5BE8598CC080FF27C7666E00C03228 /* CubicSpline.xcconfig */,
+				28410BCB26BE3EA24D111B47721096F0 /* CubicSpline-dummy.m */,
+				5EC6F4E74DC76856A944AFB7634AA0DA /* CubicSpline-prefix.pch */,
+				2436E85239E86A0146A3852B02E41493 /* CubicSpline-umbrella.h */,
+				2A9EE532207B0C18E76082717111E0EC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CubicSpline";
+			sourceTree = "<group>";
+		};
+		ECF902719515EE32D03A241C08297E38 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				51EF2268910066EA4F397016D2AF8759 /* CubicSpline.podspec */,
+				F01BB2D1D6BC947D4F0FF2732963D041 /* LICENSE */,
+				58E5E1105C599BB09D5BE8A72F4A08E8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BBE8E1C6C5C0507C87F231D05BA84F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788549F0763FE7ACFA62CD16848335FF /* Pods-CubicSpline_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC9C238927D3860F1F7BCDBE05D39B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2B6BE5942D435D7E5513999CD057B2 /* CubicSpline-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08D8893DCEAA5F6D54B04DDC80603A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2B698266AFAF8117A9E116F3C05970 /* Pods-CubicSpline_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BA55DD4142053A4287988B68A5E09E6 /* Pods-CubicSpline_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876851C90CFEB0A286AC715CE5B0D10C /* Build configuration list for PBXNativeTarget "Pods-CubicSpline_Tests" */;
+			buildPhases = (
+				2C155567727837D155BEE693931B0F37 /* Sources */,
+				7BA3D286FC9E4D5C6AB0763B5A22EC8F /* Frameworks */,
+				BA08D8893DCEAA5F6D54B04DDC80603A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CubicSpline_Tests";
+			productName = "Pods-CubicSpline_Tests";
+			productReference = DFBCDF4C7B03EF2F193401C8B7E39E31 /* Pods_CubicSpline_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F1C671A37B64D08F11DD5ADF4532A24 /* Pods-CubicSpline_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BCDE48044F946AE0556C526DCCD0B3 /* Build configuration list for PBXNativeTarget "Pods-CubicSpline_Example" */;
+			buildPhases = (
+				EF661BD25D0D1C7ACA62BFBF56CC55BE /* Sources */,
+				4D1F9B9A4330949EEE4454FFF62C309A /* Frameworks */,
+				2BBE8E1C6C5C0507C87F231D05BA84F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E883C4DC5EA2A5D41CC5E9830536F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CubicSpline_Example";
+			productName = "Pods-CubicSpline_Example";
+			productReference = 283927271BEDC08AFFD1B7FE50A8B484 /* Pods_CubicSpline_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		906AA21A671568B7B4346519655FA621 /* CubicSpline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9313CFEC7602EC39631D227ED4EA769 /* Build configuration list for PBXNativeTarget "CubicSpline" */;
+			buildPhases = (
+				1BDCF8AF3074521E4C3E375CBEA18DCF /* Sources */,
+				AE4A2ECB950BE33E1BB958284670B2A2 /* Frameworks */,
+				68BC9C238927D3860F1F7BCDBE05D39B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubicSpline;
+			productName = CubicSpline;
+			productReference = 530EC6B3151E5CE47B1165A0057E08D3 /* CubicSpline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					906AA21A671568B7B4346519655FA621 = {
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 06EB36C96800EFA462B0F728748B8FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				906AA21A671568B7B4346519655FA621 /* CubicSpline */,
+				8F1C671A37B64D08F11DD5ADF4532A24 /* Pods-CubicSpline_Example */,
+				6BA55DD4142053A4287988B68A5E09E6 /* Pods-CubicSpline_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BDCF8AF3074521E4C3E375CBEA18DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27355C2B39C44C26697F6CC05871E855 /* CubicSpline-dummy.m in Sources */,
+				EF67331D206FDF8100F86C10 /* CubicSpline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C155567727837D155BEE693931B0F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC421360C3B6C1456030B00526FEADBB /* Pods-CubicSpline_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF661BD25D0D1C7ACA62BFBF56CC55BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81499CF61513B0202634B4DD33DE288 /* Pods-CubicSpline_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E883C4DC5EA2A5D41CC5E9830536F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubicSpline;
+			target = 906AA21A671568B7B4346519655FA621 /* CubicSpline */;
+			targetProxy = 9A4A9CA42A89286F5DF4BE62A49BF4D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AFBAE914352AD203D4BC49E0BF70ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5BE8598CC080FF27C7666E00C03228 /* CubicSpline.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubicSpline/CubicSpline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubicSpline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubicSpline/CubicSpline.modulemap";
+				PRODUCT_NAME = CubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		65B31200CCE13AEA1EF254371A0A28BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5BE8598CC080FF27C7666E00C03228 /* CubicSpline.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubicSpline/CubicSpline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubicSpline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubicSpline/CubicSpline.modulemap";
+				PRODUCT_NAME = CubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA035940B54B7E54B97340DA3C3E0910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB025A034F6231E9518EAFF2F639EC6C /* Pods-CubicSpline_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubicSpline_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubicSpline_Example/Pods-CubicSpline_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CubicSpline_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3CE5300C8C671E73239A323638056F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F03ED021A6247D466DBE0DF9AA48DB2 /* Pods-CubicSpline_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubicSpline_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubicSpline_Example/Pods-CubicSpline_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CubicSpline_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB2062A22865EA36FA336A6C983873AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D468A8F0CBA3349A6AFF249BD3A8C77 /* Pods-CubicSpline_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubicSpline_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubicSpline_Tests/Pods-CubicSpline_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CubicSpline_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F36A674D8DF797BDC3BE23D6596C047B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0187391DCF47FC4B60AB5E5FCEE4A8EC /* Pods-CubicSpline_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubicSpline_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubicSpline_Tests/Pods-CubicSpline_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CubicSpline_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876851C90CFEB0A286AC715CE5B0D10C /* Build configuration list for PBXNativeTarget "Pods-CubicSpline_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A674D8DF797BDC3BE23D6596C047B /* Debug */,
+				CB2062A22865EA36FA336A6C983873AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BCDE48044F946AE0556C526DCCD0B3 /* Build configuration list for PBXNativeTarget "Pods-CubicSpline_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CE5300C8C671E73239A323638056F1 /* Debug */,
+				AA035940B54B7E54B97340DA3C3E0910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9313CFEC7602EC39631D227ED4EA769 /* Build configuration list for PBXNativeTarget "CubicSpline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBAE914352AD203D4BC49E0BF70ED3 /* Debug */,
+				65B31200CCE13AEA1EF254371A0A28BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

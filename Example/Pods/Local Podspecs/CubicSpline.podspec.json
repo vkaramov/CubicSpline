@@ -1,0 +1,22 @@
+{
+  "name": "CubicSpline",
+  "version": "0.1.0",
+  "summary": "A short description of CubicSpline.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vkaramov/CubicSpline",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vkaramov": "vkaramov@waverleysoftware.com"
+  },
+  "source": {
+    "git": "https://github.com/vkaramov/CubicSpline.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CubicSpline/Classes/**/*"
+}

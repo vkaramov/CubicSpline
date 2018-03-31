@@ -1,0 +1,16 @@
+PODS:
+  - CubicSpline (0.1.0)
+
+DEPENDENCIES:
+  - CubicSpline (from `../`)
+
+EXTERNAL SOURCES:
+  CubicSpline:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CubicSpline: f4cc4efa8aa5912d9d14c70e1bf9b5f18cc0a39e
+
+PODFILE CHECKSUM: d6176c1d3e2ffe620d78c4319bc6319729a7c4e8
+
+COCOAPODS: 1.4.0

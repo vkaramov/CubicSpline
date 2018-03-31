@@ -1,0 +1,6 @@
+framework module CubicSpline {
+  umbrella header "CubicSpline-umbrella.h"
+
+  export *
+  module * { export * }
+}
