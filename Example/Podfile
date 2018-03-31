@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CubicSpline_Example' do
+  pod 'CubicSpline', :path => '../'
+
+  target 'CubicSpline_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
