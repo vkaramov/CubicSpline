@@ -15,6 +15,7 @@ A simple cubic spline (https://en.wikipedia.org/wiki/Cubic_Hermite_spline) libra
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vkaramov' => 'vkaramov a_t yandex d|o|t ru' }
   s.source           = { :git => 'https://github.com/vkaramov/CubicSpline.git', :tag => s.version.to_s }
+  s.swift_version    = '3.2'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target  = '10.10'
