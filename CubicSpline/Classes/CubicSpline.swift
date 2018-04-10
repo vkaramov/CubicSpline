@@ -56,7 +56,8 @@ open class CubicSpline {
         z[0] = 0
 
         for i in 1..<n {
-            l[i] = 2 * (x[i + 1] - x[i - 1]) - h[i - 1] * u[i - 1]
+            let temp: Double = 2 * (x[i + 1] - x[i - 1])
+            l[i] = temp - h[i - 1] * u[i - 1]
             u[i] = h[i] / l[i]
             z[i] = (y[i] - h[i - 1] * z[i - 1]) / l[i]
         }
@@ -67,7 +68,11 @@ open class CubicSpline {
         var i = n - 1
         while i >= 0 {
             c[i] = z[i] - u[i] * c[i + 1]
-            b[i] = (a[i + 1] - a[i]) / h[i] - h[i] * (c[i + 1] + 2.0 * c[i]) / 3.0
+
+            let aDiff: Double = a[i + 1] - a[i]
+            let temp: Double = c[i + 1] + 2.0 * c[i]
+
+            b[i] = aDiff / h[i] - h[i] * temp / 3.0
             d[i] = (c[i + 1] - c[i]) / (3 * h[i])
             i -= 1
         }
